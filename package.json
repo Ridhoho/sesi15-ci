@@ -1,23 +1,12 @@
 {
-  "name": "sesi15-ci",
+  "name": "calcapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Calculator app - CI/CD Tutorial Hacktiv8",
+  "main": "calc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ridhoho/sesi15-ci.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ridhoho/sesi15-ci/issues"
-  },
-  "homepage": "https://github.com/Ridhoho/sesi15-ci#readme",
-  "dependencies": {
-    "express": "^5.2.1"
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
