@@ -1,0 +1,15 @@
+# Bahasa yang digunakan
+language: node_js
+
+# Versi Node.js yang akan digunakan Travis
+node_js:
+  - "22"   # sesuaikan dengan versi lokal kamu
+
+# Perintah untuk install dependencies
+install:
+  - npm install
+
+# Perintah untuk menjalankan test
+# Travis akan FAIL jika exit code != 0
+script:
+  - npm test
