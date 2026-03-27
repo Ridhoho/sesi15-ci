@@ -3,7 +3,7 @@ language: node_js
 
 # Versi Node.js yang akan digunakan Travis
 node_js:
-  - "22"   # sesuaikan dengan versi lokal kamu
+  - "22.19.0"   # sesuaikan dengan versi lokal kamu
 
 # Perintah untuk install dependencies
 install:
