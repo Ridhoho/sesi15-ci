@@ -10,6 +10,10 @@ app.get('/api/data', (req, res) => {
     res.json(data)
 })
 
+app.get("/hello", (req, res) => {
+    res.json("HELLO")
+})
+
 app.listen(port, () => {
     console.log(`Server Running on port ${port}`);
 })
