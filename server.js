@@ -14,6 +14,11 @@ app.get("/hello", (req, res) => {
     res.json("HELLO")
 })
 
+app.get("/hello/:name", (req, res) => {
+    const name = req.params.name
+    res.json(`Hello ${name}`)
+})
+
 app.listen(port, () => {
     console.log(`Server Running on port ${port}`);
 })
